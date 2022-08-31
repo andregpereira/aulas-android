@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_sm"
+    app:cardCornerRadius="@dimen/spacing_sm"
+    app:cardElevation="@dimen/spacing_sm">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/spacing_sm">
+
+        <TextView
+            android:id="@+id/artefatoNomeLabel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_xs"
+            android:text="@string/artefato_nome_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/artefatoNomeValue"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/artefatoNomeLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artefatoNomeLabel"
+            app:layout_constraintTop_toTopOf="@+id/artefatoNomeLabel"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/artefatoNomeSistemaEstelarLabel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_xs"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:text="@string/artefato_nome_sistema_estelar_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/artefatoNomeLabel" />
+
+        <TextView
+            android:id="@+id/artefatoNomeSistemaEstelarValue"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/artefatoNomeSistemaEstelarLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artefatoNomeSistemaEstelarLabel"
+            app:layout_constraintTop_toTopOf="@+id/artefatoNomeSistemaEstelarLabel"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/artefatoNomePlanetaLuaLabel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_xs"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:text="@string/artefato_nome_planeta_lua_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/artefatoNomeSistemaEstelarLabel" />
+
+        <TextView
+            android:id="@+id/artefatoNomePlanetaLuaValue"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/artefatoNomePlanetaLuaLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artefatoNomePlanetaLuaLabel"
+            app:layout_constraintTop_toTopOf="@+id/artefatoNomePlanetaLuaLabel"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/artefatoCoordenadaXLabel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_xs"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:text="@string/artefato_coordenada_x_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/artefatoNomePlanetaLuaLabel" />
+
+        <TextView
+            android:id="@+id/artefatoCoordenadaXValue"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/artefatoCoordenadaXLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artefatoCoordenadaXLabel"
+            app:layout_constraintTop_toTopOf="@+id/artefatoCoordenadaXLabel"
+            tools:text="Description" />
+
+        <TextView
+            android:id="@+id/artefatoCoordenadaYLabel"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_xs"
+            android:layout_marginTop="@dimen/spacing_sm"
+            android:text="@string/artefato_coordenada_y_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/artefatoCoordenadaXLabel" />
+
+        <TextView
+            android:id="@+id/artefatoCoordenadaYValue"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/artefatoCoordenadaYLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/artefatoCoordenadaYLabel"
+            app:layout_constraintTop_toTopOf="@+id/artefatoCoordenadaYLabel"
+            tools:text="Description" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconUpdate"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="@dimen/spacing_xs"
+            android:padding="@dimen/spacing_xs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="@dimen/spacing_xs"
+            android:padding="@dimen/spacing_xs"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_delete" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

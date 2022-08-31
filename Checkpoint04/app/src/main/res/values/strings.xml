@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Artefatos No Man\'s Sky</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="register_artefato_fragment_label">Cadastro de artefatos</string>
+    <string name="artefatos_fragment_label">Lista de artefatos No Man\'s Sky</string>
+    <string name="back_to_artefatos_label">Voltar para lista</string>
+    <string name="previous">Previous</string>
+
+    <!--    <string name="hello_first_fragment">Hello first fragment</string>-->
+    <!--    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>-->
+
+    <string name="artefato_nome_label">Nome</string>
+    <string name="artefato_nome_sistema_estelar_label">Nome Sistema Estelar</string>
+    <string name="artefato_nome_planeta_lua_label">Nome Planete/Lua</string>
+    <string name="artefato_coordenada_x_label">Coordenada X</string>
+    <string name="artefato_coordenada_y_label">Coordenada Y</string>
+    <string name="register_artefato_button_label">Cadastrar</string>
+    <string name="delete_dialog_title">Deletar artefato</string>
+    <string name="delete_dialog_message">Tem certeza que deseja deletar o artefato %s ?</string>
+    <string name="delete_cancel_label">Cancelar</string>
+    <string name="delete_continue_label">Deletar</string>
+    <string name="success_deleted_message">Artefato %s deletado com sucesso!</string>
+    <string name="adicionar_artefato_button">Adicionar artefato</string>
+</resources>
